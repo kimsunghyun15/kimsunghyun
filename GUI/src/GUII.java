@@ -17,7 +17,7 @@ public class GUII extends JFrame {
 	    this.add(btn1);
 	    btn1.setBounds(100, 50, 100, 50);
 	    
-	    
+	 
 	    
 	    JTextField txt1 = new JTextField(10);
 	    this.add(txt1);
