@@ -79,7 +79,11 @@ public class GUII extends JFrame {
 		
 		panelTable.add(sc, "West");
 		add(panelTable);
+		
+	
+		
 		setVisible(true);
+		
 
 	}
 
