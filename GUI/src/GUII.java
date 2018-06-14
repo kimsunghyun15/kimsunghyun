@@ -16,6 +16,7 @@ public class GUII extends JFrame {
 		JButton btn1 = new JButton("국어");
 		add(btn1);
 		btn1.setBounds(100, 50, 100, 50);
+		btn1.setBackground(Color.CYAN);
 
 		JTextField txt1 = new JTextField(10);
 		add(txt1);
@@ -24,6 +25,7 @@ public class GUII extends JFrame {
 		JButton btn2 = new JButton("수학");
 		add(btn2);
 		btn2.setBounds(100, 100, 100, 50);
+		btn2.setBackground(Color.CYAN);
 
 		JTextField txt2 = new JTextField(10);
 		add(txt2);
@@ -32,23 +34,36 @@ public class GUII extends JFrame {
 		JButton btn3 = new JButton("영어");
 		add(btn3);
 		btn3.setBounds(100, 150, 100, 50);
+		btn3.setBackground(Color.CYAN);
 
 		JTextField txt3 = new JTextField(10);
 		add(txt3);
 		txt3.setBounds(200, 150, 100, 50);
+		
+		JButton btn8 = new JButton("이름");
+		add(btn8);
+		btn8.setBounds(100,1,100,50);
+		btn8.setBackground(Color.YELLOW);
+		JTextField txt8 = new JTextField(10);
+		add(txt8);
+		txt8.setBounds(200,1,100,50);
 
 		Button btn4 = new Button("제거");
 		add(btn4);
 		btn4.setBounds(300, 50, 100, 50);
+		btn4.setBackground(Color.GREEN);
 
 		Button btn5 = new Button("수정");
 		add(btn5);
 		btn5.setBounds(300, 100, 100, 50);
+		btn5.setBackground(Color.GREEN);
 
-		Button btn6 = new Button("제거");
+		Button btn6 = new Button("추가");
 		add(btn6);
 		btn6.setBounds(300, 150, 100, 50);
+		btn6.setBackground(Color.GREEN);
 
+		
 		JPanel panelTable = new JPanel();
 		panelTable.setLayout(new BorderLayout());
 		panelTable.setBounds(410, 0, 600, 350);
@@ -60,6 +75,8 @@ public class GUII extends JFrame {
 		JScrollPane sc = new JScrollPane(table1);
 
 		
+		
+		
 		panelTable.add(sc, "West");
 		add(panelTable);
 		setVisible(true);
@@ -67,6 +84,9 @@ public class GUII extends JFrame {
 	}
 
 	public static void main(String[] args) {
+		
+		
+			
 		GUII g = new GUII();
 
 	}
